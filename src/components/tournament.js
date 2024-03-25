@@ -9,7 +9,7 @@ export default function Tournament(props) {
 
 
 
-      <div className= '  bg-[#0c0c0c] h-[4rem] rounded-t-[10px] flex  '>
+      <div className= '  bg-[#121212] h-[4rem] rounded-t-[10px] flex  '>
 
 
         <div className='w-[22%] h-[4rem] flex justify-center items-center '><img className='w-[70%] h-[70%] border-[1px] border-[#222222] rounded-[8px] ' src={props.orgimg}></img></div>
@@ -30,7 +30,7 @@ export default function Tournament(props) {
 
 
 
-      <div className='bg-[#0c0c0c] h-[3rem] flex'>
+      <div className='bg-[#121212] h-[3rem] flex'>
         <div className='w-[33%] flex justify-center items-center text-[#656565] font-medium text-[3.3vw]  '><div className='border-r-[2px]  border-[#222222] w-full flex justify-center'>Prizepool-{props.prizepool}</div></div>
         <div className='w-[33%] flex justify-center items-center text-[#656565] font-medium text-[3.3vw]  '><div className='border-r-[2px]  border-[#222222] w-full flex justify-center'>{props.registrations} Registered</div></div>
         <div className='w-[33%] flex justify-center items-center text-[#656565] font-medium text-[3.3vw] '>{props.timeleft}</div>

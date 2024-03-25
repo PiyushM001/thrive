@@ -7,6 +7,11 @@ module.exports = {
     "./src/components/tournament.js",
     "./src/components/tournament-page.js",
     "./src/components/profile_page.js",
+    "./src/components/profile_page_games.js",
+    "./src/components/profile_page_posts.js",
+    "./src/components/players_page.js",
+    "./src/components/player.js",
+
   ],
    theme: {
     extend: {
